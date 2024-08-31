@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "llm"
+version = "0.1.0"
+description = ""
+authors = ["Nate Wilson <nate@skipperhospitality.com>"]
+readme = "README.md"
+
+[tool.poetry.scripts]
+llm = "llm.main:main"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+tiktoken = "^0.7.0"
+torch = "^2.4.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
